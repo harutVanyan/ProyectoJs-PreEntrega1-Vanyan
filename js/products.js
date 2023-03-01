@@ -1,0 +1,50 @@
+const productos = [
+    {
+        nombre: "Entrenamiento Funcional",
+        precio: 500,
+        imagen: "../images/product1.jpg",
+        id: 1,
+        descripcion: "Entrenar para rendir al máximo con el menor riesgo de lesión. Obtene grandes resultados en la pista, el terreno de juego o en la sala de musculación.",
+        product: "product-1"
+    },
+    {
+        nombre: "Hipertrofia Muscular",
+        precio: 500,
+        imagen: "../images/product2.jpg",
+        id: 2,
+        descripcion: "Este libro es el recurso más completo del mundo sobre hipertrofia muscular y su aplicación al diseño de programas de entrenamiento.",
+        product: "product-2",
+    },
+    {
+        nombre: "Fuerza",
+        precio: 500,
+        imagen: "../images/product3.jpg",
+        id: 3,
+        descripcion: "El entrenamiento de fuerza es un componente fundamental para el desarrollo de una buena condición física. Mejora tu técnica, evita lesiones. ",
+        product: "product-3",
+    },
+    {
+        nombre: "Mecanica del Ejercicio",
+        precio: 500,
+        imagen: "../images/product4.jpg",
+        id: 4,
+        descripcion: "El libro de Biomecánica aplicada que te enseñará las bases de la Mecánica del Ejercicio como nunca te han explicado. Con ilustraciones de calidad.",
+        product: "product-4",
+    },
+    {
+        nombre: "Nutricion y Entrenamiento",
+        precio: 500,
+        imagen: "../images/product5.jpg",
+        id: 5,
+        descripcion: "El libro utiliza el enfoque de la pirámide para enseñar a los lectores sobre los aspectos fundamentales de la nutrición y el entrenamiento.",
+        product: "product-5",
+    },
+    {
+        nombre: "Running",
+        precio: 500,
+        imagen: "../images/product6.jpg",
+        id: 6,
+        descripcion: "Aplica la ciencia a tu entrenamiento de running y mejora tu forma física y rendimiento sin lesionarte. Un manual imprescindible para todos los runners.",
+        product: "product-6",
+    },
+    ];  
