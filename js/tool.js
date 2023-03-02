@@ -24,16 +24,16 @@ const data = [{
   },
   {
     id: 3,
-    titulo: "Nadar",
+    titulo: "Entrenamiento funcional intermedio 1",
     imagen: "https://images.unsplash.com/photo-1519315901367-f34ff9154487?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670",
-    descripcion: "1 hora nadando quema aproximadamente 630 descripcion.",
+    descripcion: "- Plancha frontal: 4 series de 45/60 segundos. - Flexiones de brazos: 4 series de 10 repeticiones. - Estocadas con mancuernas: 4 series de 10 repeticiones por cada pierna. - Sentadillas con salto: 4 series de 10 repeticiones. - Plancha lateral con elevacion de cadera: 4 series de 15 repeticiones. - Burpees: 4 series de 10 repeticiones. - Sentadillas con press militar con mancuernas: 4 series de 10 repeticiones. - Espinales nados: 4 series de 15 repeticiones. - Descansa 45 seg entre series.",
     nivel:"intermedio"
   },
   {
     id: 4,
-    titulo: "Saltar la Cuerda",
+    titulo: "musculacion tren superior intermedio 1",
     imagen: "https://images.unsplash.com/photo-1514994667787-b48ca37155f0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2380",
-    descripcion: "1 hora Saltando la Cuerda quema aproximadamente 898 descripcion.",
+    descripcion: "- Press de pecho en banco plano con barra: 4 series de 10 repeticiones. - Apertura en maquina: 4 series de 12 repeticiones. - Remo bajo en maquina: 4 series de 12 repeticiones. - Polea al pecho con agarre abierto: 4 series de 12 repeticiones. - Press militar con barra: 4 series de 10 repeticiones. - Elevaciones laterales con mancuernas: 4 series de 12 repeticiones. - Curl de biceps con barra: 4 series de 12 repeticiones. - Extensiones de triceps en polea: 4 series de 12 repeticiones. - Descansar 60 seg entre series. ",
     nivel:"intermedio"
   },
   {
@@ -77,7 +77,7 @@ const tablacorporal = `Nivel de peso:</br>
  Entre 25.0 – 29.9     Sobrepeso</br>
  Entre 30.0 o  más     Obesidad</br>`
 
-const corporal = `<p>El índice de masa corporal (IMC) es un número que se calcula con base en el peso y la estatura de la persona.</br>
+const corporal = `<p>El índice de masa corporal (IMC) es un número que se calcula segun el peso y la estatura de la persona.</br>
 Para la mayoría de las personas, el IMC es un indicador confiable de la gordura y se usa para identificar las categorías de peso que pueden llevar a problemas de salud.</p>`
 
 const sueño = `
@@ -134,7 +134,7 @@ function handleSubmit(event) {
   const waterD =
   gender === 'female' ?
   ((weight * 35) / 1000) :
-  ((weight * 35) / 1000)
+  ((weight * 35) / 999)
 
   // Peso ideal
   const idealW =
@@ -152,7 +152,7 @@ function handleSubmit(event) {
 
   for (const ejercicio of ejerciciosFiltrados) {
     app.innerHTML += `
-    <div class="col exer col-12 col-md-6 col-lg-4">
+    <div class="col exer col-12 col-md-6 col-lg-4 ">
     <div class="card" >
       <img src="${ejercicio.imagen}"  class="card-img-top" alt="...">
       <div class="card-body">
@@ -289,7 +289,7 @@ function handleSubmit(event) {
   <div class="result-content mx-auto">  
     <div class="imc more">${totalText}     
     
-      <p>Su metabolismo basal es de <strong>${tmb} descripcion</strong>.</p>
+      <p>Su metabolismo basal es de <strong>${tmb} calorías</strong>.</p>
       <p class= "more">
       </p>
       ${basal}
@@ -297,9 +297,9 @@ function handleSubmit(event) {
     <br>
     <div class="info">
       <p class= "more">
-        Para manter su peso usted necesita consumir aproximadamente <strong>${maintenance} descripcion</strong>.<br>
-        Para perder su peso usted necesita consumir aproximadamente <strong>${loseWeight} descripcion</strong>.<br>
-        Para ganar su peso usted necesita consumir aproximadamente <strong>${gainWeight} descripcion</strong>.<br>
+        Para manter su peso usted necesita consumir aproximadamente <strong>${maintenance} calorías</strong>.<br>
+        Para perder su peso usted necesita consumir aproximadamente <strong>${loseWeight} calorías</strong>.<br>
+        Para ganar su peso usted necesita consumir aproximadamente <strong>${gainWeight} calorías</strong>.<br>
         Su peso ideal aproximado debería ser <strong> ${idealW} kilogramos</strong>.
       </p>
     </div>
@@ -328,7 +328,7 @@ function handleSubmit(event) {
       El nivel saludable recomendado de actividad física es de 30-50 minutos de ejercicio moderado durante al menos cinco días a la semana. 
       </p>
       <p  class= "more">${ejericio}</p>
-      <h6>Debajo encontraras algunas actividades con su gasto calorico aproximado por hora.</h6>
+     
     </div>
     <br>
   </div>
