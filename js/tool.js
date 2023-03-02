@@ -134,7 +134,7 @@ function handleSubmit(event) {
   const waterD =
   gender === 'female' ?
   ((weight * 35) / 1000) :
-  ((weight * 35) / 999)
+  ((weight * 35) / 1000)
 
   // Peso ideal
   const idealW =
@@ -191,7 +191,7 @@ function handleSubmit(event) {
         `
     <p>Su indice de Masa Corporal es: <strong>${totalshow}</strong></br>
     <div class="alert alert-success" role="alert">
-    Usted tiene Peso Normal.
+    Usted tiene Peso saludable.
     </div></br>
     </br>
     ${corporal}</br>
