@@ -1,0 +1,41 @@
+.weather {
+    min-height: 600px!important;
+}
+
+
+.card {
+    margin-top: 20px;
+  }
+
+  .clima-card {
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-color: rgba(255, 255, 255, 0.9)!important;
+    max-width: 350px;
+  }
+
+  .button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 20%;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: rgb(254, 254, 254);
+    margin-top: 25px;
+}
+
+.button:hover {
+    border: solid 2px gray;
+}
+
+.weatherMain {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+    display: inline-block;
+}
