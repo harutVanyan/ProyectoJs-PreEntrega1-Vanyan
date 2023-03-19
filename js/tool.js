@@ -3,65 +3,65 @@
 //Datos y Layouts
 const data = [{
     id: 0,
-    titulo: "Entrenamiento funcional 1",
-    imagen: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pushup-1525365829.gif?crop=1.00xw:0.501xh;0,0.266xh&resize=640:*",
+    titulo: "Entrenamiento funcional inicial 1",
+    imagen: "https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
     descripcion: "Calentamiento: 5-10 minutos de movilidad articular o cardio suave. Plancha frontal: 3 series de 30 segundos. Sentadillas con peso corporal: 3 series de 10 repeticiones. Estocadas con peso corporal: 3 series de 10 repeticiones con cada pierna. Flexiones de brazo: 3 series de 10 repeticiones. Elevacion de cadera: 3 series de 15 repeticiones. Elevación de piernas acostado: 3 series de 15 repeticiones. ",
     nivel:"inicial"
   },
   {
     id: 1,
-    titulo: "Musculacion tren superior 1",
-    imagen: "https://images.unsplash.com/flagged/photo-1556746834-cbb4a38ee593?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2372",
+    titulo: "Musculacion tren superior inicial 1",
+    imagen: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
     descripcion: "- Planchas: 3 series de 45 segundos. - Flexiones de brazos: 3 series de 10 repeticiones. - Tiron al pecho agarre abierto: 3 series de 10/12 repeticiones. - Press de pecho en banco plano con barra: 3 series de 10/12 repeticiones. - Elevaciones laterales de hombros con mancuernas: 3 series de 10/12 repeticiones. - Curl de bíceps con mancuernas alternado: 3 series de 10 repeticiones. - Extensiones de tríceps en polea: 3 series de 12 repeticiones. - Descansa 45-60 seg entre series.",
     nivel:"inicial"
   },
   {
     id: 2,
-    titulo: "Musculacion tren inferior 1",
-    imagen: "https://images.unsplash.com/flagged/photo-1556746834-cbb4a38ee593?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2372",
+    titulo: "Musculacion tren inferior inicial 1",
+    imagen: "https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80",
     descripcion: "- Sentadillas con peso corporal: 3 series de 15 repeticiones. - Peso muerto con barra: 3 series de 12 repeticiones. - Estocadas con peso corporal: 3 series de 10 repeticiones con cada pierna. - Elevaciones de cadera con peso corporal: 3 series de 20 repeticiones. - Camilla de cuadriceps: 3 series de 12 repeticiones. - Elevacion de talones con mancuerna: 3 series de 15/20 repeticiones. - Sentadilla sumo con kettlebell: 3 series de 12 repeticiones. - Descansa 45-60 seg entre series.",
     nivel:"inicial"
   },
   {
     id: 3,
     titulo: "Entrenamiento funcional intermedio 1",
-    imagen: "https://images.unsplash.com/photo-1519315901367-f34ff9154487?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670",
+    imagen: "https://images.unsplash.com/photo-1593234270120-189e191918a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
     descripcion: "- Plancha frontal: 4 series de 45/60 segundos. - Flexiones de brazos: 4 series de 10 repeticiones. - Estocadas con mancuernas: 4 series de 10 repeticiones por cada pierna. - Sentadillas con salto: 4 series de 10 repeticiones. - Plancha lateral con elevacion de cadera: 4 series de 15 repeticiones. - Burpees: 4 series de 10 repeticiones. - Sentadillas con press militar con mancuernas: 4 series de 10 repeticiones. - Espinales nados: 4 series de 15 repeticiones. - Descansa 45 seg entre series.",
     nivel:"intermedio"
   },
   {
     id: 4,
     titulo: "musculacion tren superior intermedio 1",
-    imagen: "https://images.unsplash.com/photo-1514994667787-b48ca37155f0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2380",
+    imagen: "https://images.unsplash.com/photo-1596357395104-ba989e72b5ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80",
     descripcion: "- Press de pecho en banco plano con barra: 4 series de 10 repeticiones. - Apertura en maquina: 4 series de 12 repeticiones. - Remo bajo en maquina: 4 series de 12 repeticiones. - Polea al pecho con agarre abierto: 4 series de 12 repeticiones. - Press militar con barra: 4 series de 10 repeticiones. - Elevaciones laterales con mancuernas: 4 series de 12 repeticiones. - Curl de biceps con barra: 4 series de 12 repeticiones. - Extensiones de triceps en polea: 4 series de 12 repeticiones. - Descansar 60 seg entre series. ",
     nivel:"intermedio"
   },
   {
     id: 5,
-    titulo: "Saltar la Cuerda",
-    imagen: "https://images.unsplash.com/photo-1514994667787-b48ca37155f0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2380",
-    descripcion: "1 hora Saltando la Cuerda quema aproximadamente 898 descripcion.",
+    titulo: "Musculación tren inferior intermedio 1",
+    imagen: "https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    descripcion: "- Sentadillas con barra: 4 series de 10 repeticiones. - Peso muerto: 4 series de 12 repeticiones. - Estocadas con mancuernas: 4 series de 10 repeticiones para cada pierna. - Prensa de piernas: 4 series de 12 repeticiones. - Extensión de piernas en máquina: 4 series de 12 repeticiones. - Elevación de talones con mancuernas: 4 series de 15 repeticiones. - Elevacion de cadera con barra: 4 series de 15 repeticiones. - Estocadas inversas con mancuernas: 3 series de 12 repeticiones para cada pierna. - Descansar 60 seg entre series.  ",
     nivel:"intermedio"
   },
   {
     id: 6,
-    titulo: "Bicicleta",
-    imagen: "https://images.unsplash.com/photo-1517649763962-0c623066013b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3870",
-    descripcion: "1 hora de ciclismo quema aproximadamente 430 descripcion.",
+    titulo: "Entrenamiento funcional avanzado 1",
+    imagen: "https://images.unsplash.com/photo-1571019613576-2b22c76fd955?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    descripcion: "- Plancha lateral con elevación de pierna: 3 series x 10 repeticiones (cada pierna) - Burpees: 4 series x 15 repeticiones. - Flexiones de brazos: 4 series al fallo. - Sentadillas con salto: 4 series x 12 repeticiones. - Dominadas: 4 series de 10 repeticiones. - Estocadas caminando con mancuernas: 4 series de 12 repeticiones (por pierna). - Press militar con barra: 4 series de 10 repeticiones. - Elevacion de cadera con barra: 4 series de 12 repeticiones. - Peso muerto con mancuernas: 4 series de 12 repeticiones. - Descansar 45 seg entre series.    ",
     nivel:"avanzado"
   },
   {
     id: 7,
-    titulo: "Bicicleta",
-    imagen: "https://images.unsplash.com/photo-1517649763962-0c623066013b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3870",
-    descripcion: "1 hora de ciclismo quema aproximadamente 430 descripcion.",
+    titulo: "musculacion tren superior avanzado 1",
+    imagen: "https://images.unsplash.com/photo-1604480133080-602261a680df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    descripcion: "- Plancha frontal con carga en la espalda: 4 series de 1 min. - Plancha lateral con elevación de cadera: 4 series de 15 repeticiones por lado. - Press de pecho con barra: 4 series de 10-12 repeticiones. - Dominadas con peso: 4 series al fallo. - Press militar con barra: 4 series de 10 repeticiones. - Remo bajo en maquina: 4 series de 12 repeticiones. - Fondos en paralelas con peso: 4 series al fallo. - Press de pecho inclinado con mancuernas: 4 series de 10-12 repeticiones. - Elevaciones laterales con mancuernas: 4 series de 10-12 repeticiones. - Curl de bíceps con mancuernas: 4 series de 10-12 repeticiones. - Extensiones de tríceps en polea: 4 series de 10-12 repeticiones. - Descansar 60 seg entre series. ",
     nivel:"avanzado"
   },
   {
     id: 8,
-    titulo: "Musculacion",
-    imagen: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370",
-    descripcion: "1 hora de musculacion quema aproximadamente 225 descripcion.",
+    titulo: "Musculación tren inferior avanzado 1",
+    imagen: "https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    descripcion: "- Sentadillas con barra: 4 series de 10-12 repeticiones. - Peso muerto con barra: 4 series de 10-12 repeticiones. - Prensa de piernas: 4 series de 10-12 repeticiones. - Sentadilla búlgara con mancuernas: 4 series de 12 repeticiones (por pierna). - Estocadas con mancuernas caminando: 4 series de 10-12 repeticiones por lado. - Elevacion de cadera con barra: 4 series de 12-15 repeticiones. - Saltos a la caja: 4 series de 10-12 repeticiones. - Extensiones de piernas en maquina: 4 series de 10-12 repeticiones. - Elevación de talones con barra: 4 series de 15 repeticiones. - Sentadilla sumo con mancuerna: 4 series de 10-12 repeticiones. - Descansar 60 seg entre series.",
     nivel:"avanzado"
   }
 ];
@@ -78,7 +78,7 @@ const tablacorporal = `Nivel de peso:</br>
  Entre 30.0 o  más     Obesidad</br>`
 
 const corporal = `<p>El índice de masa corporal (IMC) es un número que se calcula segun el peso y la estatura de la persona.</br>
-Para la mayoría de las personas, el IMC es un indicador confiable de la gordura y se usa para identificar las categorías de peso que pueden llevar a problemas de salud.</p>`
+Para la mayoría de las personas, el IMC es un indicador confiable para controlar nuestro peso y se usa para identificar las categorías de peso que pueden llevar a problemas de salud.</p>`
 
 const sueño = `
 <ul class="result">Dormir lo suficiente puede traerte muchos beneficios. Puede ayudarte a:

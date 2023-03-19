@@ -39,3 +39,13 @@
 .btn {
     display: inline-block;
 }
+
+.clima-card::before { 
+    opacity: 0.5 !important;  
+}
+
+.footer-clima{
+  position: sticky;
+  margin-top: 100vh !important;
+  
+}
